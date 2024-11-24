@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain Bootcamp</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">Blockchain Bootcamp</div>
+    <nav>
+      <ul>
+        <li><a href="#countdown">Countdown</a></li>
+        <li><a href="#details">Details</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Join the Blockchain Revolution</h1>
+        <p>Unlock the potential of decentralized technology</p>
+        <a href="#register" class="cta-btn">Sign Up Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Slider Section -->
+<section class="slider-section">
+    <div class="slider-container">
+        <!-- Slider items -->
+        <div class="slider-item">
+            <h3>Learn from Industry Experts</h3>
+            <p>Get hands-on training from professionals with years of experience in blockchain technology.</p>
+        </div>
+        <div class="slider-item">
+            <h3>Practical Experience</h3>
+            <p>Work on real-world projects and gain experience that will set you apart in the job market.</p>
+        </div>
+        <div class="slider-item">
+            <h3>Networking Opportunities</h3>
+            <p>Meet like-minded individuals and make valuable connections within the blockchain community.</p>
+        </div>
+        <div class="slider-item">
+            <h3>Gain Certification</h3>
+            <p>Receive a certification upon completion that validates your skills in blockchain technology.</p>
+        </div>
+    </div>
+
+    <div class="scroll-progress-bar"></div>
+    <div class="nav-toggle">
+        <span class="hamburger-icon"></span>
+      </div>
+      <div class="nav-menu">
+        <!-- Your navigation links here -->
+      </div>
+      
+
+    <!-- Slider Navigation -->
+    <div class="slider-nav">
+        <button class="prev-btn">←</button>
+        <button class="next-btn">→</button>
+    </div>
+
+    <!-- Dots Navigation -->
+    <div class="dots-container">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</section>
+
+
+  <!-- Countdown Section -->
+  <section id="countdown" class="countdown-section">
+    <h2>Event Countdown</h2>
+    <div class="timer" id="countdown-timer">
+      <div class="time-box">
+        <span id="days">00</span>
+        <p>Days</p>
+      </div>
+      <div class="time-box">
+        <span id="hours">00</span>
+        <p>Hours</p>
+      </div>
+      <div class="time-box">
+        <span id="minutes">00</span>
+        <p>Minutes</p>
+      </div>
+      <div class="time-box">
+        <span id="seconds">00</span>
+        <p>Seconds</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Event Details Section -->
+  <section id="details" class="details-section">
+    <div class="content-wrapper">
+      <h2>Event Details</h2>
+      <p><strong>Date:</strong> December 15, 2024</p>
+      <p><strong>Time:</strong> 10:00 AM - 4:00 PM</p>
+      <p><strong>Location:</strong> Downtown Tech Hub, Main Auditorium</p>
+      <p>This event will cover blockchain basics, smart contracts, decentralized finance (DeFi), and more. It’s an opportunity to connect with industry experts and build your blockchain skills.</p>
+    </div>
+  </section>
+
+  <!-- Speakers Section -->
+  <section id="speakers" class="speakers-section">
+    <h2>Meet Our Speakers</h2>
+    <div class="speakers-cards">
+      <div class="speaker-card">
+        <img src="images/speaker1.jpg" alt="Speaker 1">
+        <h3>Arnav Nigam</h3>
+        <p>Blockchain Innovator</p>
+      </div>
+      <div class="speaker-card">
+        <img src="images/speaker2.jpg" alt="Speaker 2">
+        <h3>Aditya Aman</h3>
+        <p>Smart Contract Developer</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration Section -->
+  <section id="register" class="registration-section">
+    <div class="content-wrapper">
+      <h2>Register for the Event</h2>
+      <form id="registration-form">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <button type="submit">Register Now</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="content-wrapper">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Blockchain Bootcamp. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
