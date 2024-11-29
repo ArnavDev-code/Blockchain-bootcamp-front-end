@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Countdown Timer Logic
+  // Countdown Timer 
   const eventDate = new Date("December 15, 2024 10:00:00").getTime();
 
   function updateCountdown() {
